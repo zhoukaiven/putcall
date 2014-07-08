@@ -137,7 +137,7 @@ function createForm()
 	var input = document.createElement('input');
 	input.type = "number";
 	input.name = "userInput";
-	input.className = "center-block";
+	input.className = "center-block form-control";
 	input.id = "inputBox";
 	document.getElementById("inputArea").appendChild(input);
 
