@@ -61,6 +61,10 @@
 			function buildArray(values)
 			{ 
 				hide = randInt(0,5);
+				while(hide == 3) //remove "solve for K"
+				{
+					hide = randInt(0,5);
+				}
 				hidden = values[hide];
 				values[hide] = "???";
 
