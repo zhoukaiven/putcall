@@ -132,7 +132,7 @@
 				var button = document.createElement('button');
 				button.innerHTML = "Continue";
 				button.onclick = function(){game();};
-				button.className = "center-block btn btn-default";
+				button.className = "center-block btn btn-default btn-block";
 
 				document.getElementById("status").appendChild(button);
 			};
@@ -153,7 +153,7 @@
 				button.innerHTML = "Check";
 				button.id = "check";
 				button.onclick = function(){checkAnswer(input.value)};
-				button.className = "center-block btn btn-default";
+				button.className = "center-block btn btn-default btn-block";
 				document.getElementById("status").appendChild(button);
 			};
 
