@@ -155,8 +155,9 @@ function game()
 	document.getElementById("inputArea").innerHTML = "";
 	document.getElementById("status").innerHTML = "";
 
-	S = rand(10,100);
-	K = randInt(S- 10, S + 10);
+	K = 10.0*randInt(3,8) + 2.5*randInt(0,4)
+	S = rand(K-10,K+10);
+	
 	T = 1.0/12.0;//rand(0.01, 0.1);
 	r = rand(0.01, 0.20);	
 	vol = rand(0.01, 1);
